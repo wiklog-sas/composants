@@ -1,6 +1,6 @@
 {
     "name": "wiklog/wiklog-inputs",
-    "description": "Contient divers composants inputs",
+    "description": "Contient divers composants pour les formulaires",
     "type": "library",
     "version": "1.0.0",
     "require": {

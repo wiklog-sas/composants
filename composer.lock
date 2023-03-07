@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "87c9f10fc4db4b15664402524cb00031",
+    "content-hash": "ec9a17bd181e8e4925ee738bebf3aa4b",
     "packages": [
         {
             "name": "brick/math",
@@ -5405,6 +5405,43 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
             "time": "2022-06-03T18:03:27+00:00"
+        },
+        {
+            "name": "wiklog/wiklog-inputs",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "./wiklog-inputs",
+                "reference": "e52f72fe79bfbdee116cc8b6c82ddceef94c4916"
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "\\Wiklog\\WiklogInputs\\InputsServiceProvider"
+                    ],
+                    "aliases": {
+                        "WiklogInputs": "Wiklog\\WiklogInputs\\WiklogInputs"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wiklog\\WiklogInputs\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "wiklog"
+                }
+            ],
+            "description": "Contient divers composants inputs",
+            "transport-options": {
+                "relative": true
+            }
         }
     ],
     "packages-dev": [
@@ -7931,50 +7968,11 @@
                 }
             ],
             "time": "2021-07-28T10:34:58+00:00"
-        },
-        {
-            "name": "wiklog/wiklog-inputs",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "./wiklog-inputs",
-                "reference": "9bf2ab0f17cf69aa2156430053a52c9e3d3681ad"
-            },
-            "require": {
-                "php": ">=8.1"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "\\Wiklog\\WiklogInputs\\InputsServiceProvider"
-                    ],
-                    "aliases": {
-                        "WiklogInputs": "Wiklog\\WiklogInputs\\WiklogInputs"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Wiklog\\WiklogInputs\\": "src/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "wiklog"
-                }
-            ],
-            "description": "Contient divers composants inputs",
-            "transport-options": {
-                "relative": true
-            }
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "wiklog/wiklog-inputs": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
