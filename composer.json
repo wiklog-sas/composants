@@ -6,8 +6,8 @@
     "license": "MIT",
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/wiklog-sas/composants"
+            "type": "path",
+            "url" : "./wiklog-inputs"
         }
     ],
     "require": {
