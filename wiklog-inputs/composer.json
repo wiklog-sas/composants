@@ -1,0 +1,29 @@
+{
+    "name": "wiklog/wiklog-inputs",
+    "description": "Contient divers composants inputs",
+    "type": "library",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wiklog\\WiklogInputs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wiklog"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Wiklog\\WiklogInputs\\InputsServiceProvider"
+            ],
+            "aliases": {
+               "WiklogInputs" : "Wiklog\\WiklogInputs\\WiklogInputs"
+            }
+        }
+    }
+}
