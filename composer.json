@@ -1,6 +1,6 @@
 {
     "name": "wiklog/wiklog-composants",
-    "type": "project",
+    "type": "library",
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
