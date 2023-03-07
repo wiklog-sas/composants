@@ -6,21 +6,8 @@
     "license": "MIT",
     "repositories": [
         {
-            "type": "package",
-            "package": {
-                "name": "wiklog/wiklog-inputs",
-                "version": "dev-master",
-                "source": {
-                    "url": "git://github.com/wiklog-sas/composants.git",
-                    "type": "git",
-                    "reference": "master"
-                },
-                "autoload": {
-                    "psr-0" : {
-                        "Wiklog\\WiklogInputs\\": "src/"
-                    }
-                }
-            }
+            "type": "vcs",
+            "url": "https://github.com/wiklog-sas/composants"
         }
     ],
     "require": {
