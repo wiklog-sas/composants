@@ -2,6 +2,7 @@
     "name": "wiklog/wiklog-inputs",
     "description": "Contient divers composants inputs",
     "type": "library",
+    "version": "1.0.0",
     "require": {
         "php": ">=8.1"
     },
