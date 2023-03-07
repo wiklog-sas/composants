@@ -48,7 +48,7 @@
 
         </div>
         <div>
-            <x-inputs.input-text property="name" label="Prénom" required="true" maxlength="75" />
+            {{-- <x-inputs.input-text property="name" label="Prénom" required="true" maxlength="75" /> --}}
         </div>
     </body>
 </html>
