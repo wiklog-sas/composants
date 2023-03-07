@@ -5412,7 +5412,7 @@
             "dist": {
                 "type": "path",
                 "url": "./wiklog-inputs",
-                "reference": "e52f72fe79bfbdee116cc8b6c82ddceef94c4916"
+                "reference": "2d290fe7ca894906a5607c9d1f8379e74ba7bd2b"
             },
             "require": {
                 "php": ">=8.1"
@@ -5438,7 +5438,7 @@
                     "name": "wiklog"
                 }
             ],
-            "description": "Contient divers composants inputs",
+            "description": "Contient divers composants pour les formulaires",
             "transport-options": {
                 "relative": true
             }
